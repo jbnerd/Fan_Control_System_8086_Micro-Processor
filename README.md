@@ -417,5 +417,15 @@ end
 - Clock generator is not used to supply the clock input to 8086.
 - 8253/54 Timer shall be used to create delays in hours while constructing the actual system.
 
+# Running the Design model
+
+* The `FCS.dsn` file has to be opened in Proteus 7 professional (ISIS 7)
+* Compile the assembly code in DOSBOX using `ml main.asm`.
+* The compilation will result in a new machine level code with the name `main.com`
+* Double click on the 8086 processor in the design, browse from the code text box to the `main.com` and select it.
+* Run the simulation using the play button provided in ISIS 7.
+
+
+
 
 
